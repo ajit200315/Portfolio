@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a, u {
+    text-decoration: none;
+    color: white;
+  }
+
+a:hover{
+    background: linear-gradient(91deg, #244cfa, #8E52FB);
+    color:transparent;
+    background-clip: text;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.Nav-Container{
+    display: flex;
+    background-color: rgb(10%, 10%, 10%);
+    height: 65px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    font-weight: bold;
+}
+
+.logo{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 205%;
+    margin-left: 20PX;
+}
+
+nav ul li:hover{
+    color: rgb(160, 160, 222);
+}
+
+nav ul{
+    color: aliceblue;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 60px;
+    width: 100vw;
+}
