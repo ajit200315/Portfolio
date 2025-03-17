@@ -6,7 +6,7 @@
 
 body{
     background-color: black;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .Nav-Container{
@@ -42,4 +42,84 @@ nav ul{
     justify-content: center;
     gap: 80px;
     width: 100vw;
+}
+
+.About-me{
+    display: flex;
+}
+
+.info{
+    position: relative;
+    top: 100px;
+    left: 35px;
+    width: 57vw;
+}
+
+.hi{
+    background: linear-gradient(150deg, #e630ff, #ff7300);
+    color: transparent;
+    background-clip: text;
+}
+
+.pic{
+    height: 520px;
+}
+
+.Name{
+    color: lightgrey;
+    text-align: justify;
+    line-height: 2.0;
+}
+
+.foot{
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: 300px;
+}
+.footer-line{
+    border: 1px solid grey;
+}
+
+.footer-icon{
+    height: 150px;
+    position: relative;
+    top: 50px;
+}
+
+.copyright{
+    position: relative;
+    color: gray;
+    top: 65px;
+    padding: 20px;
+}
+
+.foot-nav{
+    position: relative;
+    top: -170px;
+    left: 755px;
+}
+
+.foot .foot-nav ul li {
+    color: gray;
+    margin: 10px;
+}
+
+.foot .foot-nav ul{
+    list-style-type: none;
+}
+
+.foot-follow{
+    position: relative;
+    top: -320px;
+    left: 1170px;
+}
+
+.foot .foot-follow img {
+    height: 25px; 
+    margin-right:10px;
+}
+
+footer{
+    height: 100px;
 }
