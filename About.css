@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    color: beige;
     font-family: sans-serif;
 }
 
@@ -54,3 +55,103 @@ nav ul{
     gap: 60px;
     width: 100vw;
 }
+
+
+.imageDiv{
+    position: relative;
+    top: 10px;
+    left: 650px;
+}
+
+
+.pic{
+    height: 520px;
+    position: relative;
+    left: 85px;
+    top: 10px;
+}
+
+.aboutMe{
+    width: 50vw;
+    position: relative;
+    top: -435px;
+    left: 55px;
+}
+
+.aboutMe h3{
+    color:#c364f3;
+}
+
+.intro{
+    font-size: 35px;
+    font-weight: 750;
+}
+
+.Name-colorGradient{
+    background: linear-gradient(180deg , skyblue , magenta);
+    color:transparent;
+    background-clip: text;
+}
+
+.Name{
+    text-align: justify;
+    line-height: 2.0;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+
+.foot{
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: 0px;
+}
+.footer-line{
+    border: 1px solid grey;
+}
+
+.footer-icon{
+    height: 150px;
+    position: relative;
+    top: 50px;
+}
+
+.copyright{
+    position: relative;
+    color: gray;
+    top: 65px;
+    padding: 20px;
+}
+
+.foot-nav{
+    position: relative;
+    top: -170px;
+    left: 755px;
+}
+
+.foot .foot-nav ul li {
+    color: gray;
+    margin: 10px;
+}
+
+.foot .foot-nav ul{
+    list-style-type: none;
+}
+
+.foot-follow{
+    position: relative;
+    top: -320px;
+    left: 1170px;
+}
+
+.foot .foot-follow img {
+    height: 25px; 
+    margin-right:10px;
+}
+
+footer{
+    height: 100px;
+}
+

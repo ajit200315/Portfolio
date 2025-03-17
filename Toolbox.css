@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    color: azure;
 }
 
 a, u {
@@ -53,4 +54,47 @@ nav ul{
     justify-content: center;
     gap: 60px;
     width: 100vw;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.header h1 {
+    background: linear-gradient(180deg , skyblue , purple);
+    color: transparent;
+    background-clip: text;
+}
+
+.stackList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.icon{
+    padding: 17px 115px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(10%, 10%, 10%);
+    text-align: center;
+    font-size: 16px;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+.iconPic{
+    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+img[alt="GIT"] {
+    transform: scale(1.2); /* Adjust the scale value as needed */
 }
