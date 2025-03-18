@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    color: azure;
 }
 
 a, u {
@@ -53,4 +54,16 @@ nav ul{
     justify-content: center;
     gap: 60px;
     width: 100vw;
+}
+
+.FirstLine{
+    color: gray;
+    margin-top: 90px;
+}
+
+.headerText{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
