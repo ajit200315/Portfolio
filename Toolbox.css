@@ -17,7 +17,7 @@ a:hover{
 }
 
 body{
-    /* background-color: black; */
+    background-color: black;
     background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
@@ -82,21 +82,24 @@ nav ul{
     left: 30px;
 }
 
-.icon{
+.icon {
     padding: 17px 115px;
     margin: 20px;
     border-radius: 10px;
     background-color: rgb(10%, 10%, 10%);
     text-align: center;
     font-size: 16px;
-    transition: 1s;
+    transition: background-size 0.75s ease-in-out; 
     font-weight: bold;
+    background-image: linear-gradient(143deg,#06b7ff,magenta);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
 }
 
-.icon:hover{
-    background: linear-gradient(143deg,#06b7ff,magenta);
+.icon:hover {
+    background-size: 100% 100%;
+    color: white; 
 }
-
 
 .iconPic{
     margin-bottom: 10px;

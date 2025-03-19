@@ -16,7 +16,7 @@ a:hover{
 }
 
 body{
-    /* background-color: black; */
+    background-color: black;
     background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
@@ -82,6 +82,7 @@ nav ul{
     position: relative;
     left: 40px;
     top: 10px;
+    mix-blend-mode: lighten;
 }
 
 .Name{
