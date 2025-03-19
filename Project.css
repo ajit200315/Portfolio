@@ -17,19 +17,23 @@ a:hover{
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
 
 .Nav-Container{
     display: flex;
-    background-color: rgb(10%, 10%, 10%);
+    /* background-color: rgb(10%, 10%, 10%); */
+    background-color: transparent;
     height: 65px;
 }
 
 nav{
     display: flex;
     align-items: center;
+    background: linear-gradient(180deg, black, #000000, transparent);
+    height: 90px;
 }
 
 nav ul li{
@@ -58,7 +62,9 @@ nav ul{
 
 .FirstLine{
     color: gray;
-    margin-top: 90px;
+    position: relative;
+    top: -15px;
+    left: 80px;
 }
 
 .headerText{
@@ -66,4 +72,123 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.headProject{
+    position: relative;
+    top: 35px;
+    left: -89px;
+    font-size: 65px;
+    background: linear-gradient(90deg , skyblue, magenta);
+    color:transparent;
+    background-clip: text;
+}
+
+.project1{
+    height: 565px;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: 125px;
+    border: 2px solid transparent;
+    background: linear-gradient(#151515,#151515) padding-box, linear-gradient(to top,blue , purple) border-box;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.projecttPhoto{
+    height:230px;
+    border-radius: 10px;
+}
+
+
+.projectName{
+    font-size: 30px;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.projectText{
+    color: #aaa6a6;
+    position: relative;
+    top: 20px;
+    font-size: 21px;
+}
+
+.ProjectGit{
+    position: relative;
+    height: 60px;
+    top: 40px;
+    left: 430px;
+}
+
+.project2{
+    height: 565px;
+    width: 500px;
+    position: relative;
+    top: -440px;
+    left: 690px;
+    border: 2px solid transparent;
+    background: linear-gradient(#151515,#151515) padding-box, linear-gradient(to top,blue , purple) border-box;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+.foot{
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: -30px;
+}
+.footer-line{
+    border: 1px solid grey;
+}
+
+.footer-icon{
+    height: 150px;
+    position: relative;
+    top: 50px;
+}
+
+.copyright{
+    position: relative;
+    color: gray;
+    top: 65px;
+    padding: 20px;
+}
+
+.foot-nav{
+    position: relative;
+    top: -170px;
+    left: 755px;
+}
+
+.foot .foot-nav ul li {
+    color: gray;
+    margin: 10px;
+}
+
+.foot .foot-nav ul{
+    list-style-type: none;
+}
+
+.foot-follow{
+    position: relative;
+    top: -320px;
+    left: 1170px;
+}
+
+.foot .foot-follow img {
+    height: 25px; 
+    margin-right:10px;
+}
+
+footer{
+    height: 100px;
 }

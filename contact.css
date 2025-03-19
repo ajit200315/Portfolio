@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    color: aliceblue;
 }
 
 a, u {
@@ -16,19 +17,23 @@ a:hover{
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
 
 .Nav-Container{
     display: flex;
-    background-color: rgb(10%, 10%, 10%);
+    /* background-color: rgb(10%, 10%, 10%); */
+    background-color: transparent;
     height: 65px;
 }
 
 nav{
     display: flex;
+    background: linear-gradient(180deg, black, #000000, transparent);
     align-items: center;
+    height: 90px;
 }
 
 nav ul li{
@@ -54,3 +59,41 @@ nav ul{
     gap: 60px;
     width: 100vw;
 }
+
+/* ///// */
+.firstline{
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    left: 140px;
+}
+
+.Hello{
+    background: linear-gradient(270deg , skyblue,magenta);
+    color: transparent;
+    background-clip: text;
+    font-size: 50px;
+}
+
+
+.contact-container {
+    position: relative;
+    top: 110px;
+    left: 120px;
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.FirstName{
+    width: 80%;
+    padding: 12px;
+    border-radius: 7px;
+}
+

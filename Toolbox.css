@@ -17,19 +17,23 @@ a:hover{
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
 
 .Nav-Container{
     display: flex;
-    background-color: rgb(10%, 10%, 10%);
+    /* background-color: rgb(10%, 10%, 10%); */
+    background-color: transparent;
     height: 65px;
 }
 
 nav{
     display: flex;
     align-items: center;
+    background: linear-gradient(180deg, black, #000000, transparent);
+    height: 90px;
 }
 
 nav ul li{
@@ -63,7 +67,8 @@ nav ul{
 }
 
 .header h1 {
-    background: linear-gradient(330deg , skyblue , magenta);
+    background: linear-gradient(58deg, skyblue, magenta);
+    font-size: 48px;
     color: transparent;
     background-clip: text;
 }
@@ -153,4 +158,12 @@ nav ul{
 
 footer{
     height: 100px;
+}
+
+.projectText{
+    line-height: 1;
+    letter-spacing: 2px;
+  word-spacing: 2px;
+  text-wrap: balance;
+  color: black;
 }
