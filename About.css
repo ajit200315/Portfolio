@@ -25,14 +25,14 @@ body {
 .Nav-Container {
     display: flex;
     background-color: transparent;
-    height: 71.5px; /* Increased by 10% from 65px */
+    height: 71.5px; 
 }
 
 nav {
     display: flex;
     background: linear-gradient(180deg, black, #000000, transparent);
     align-items: center;
-    height: 99px; /* Increased by 10% from 90px */
+    height: 99px; 
 }
 
 nav ul li {
@@ -42,8 +42,8 @@ nav ul li {
 .logo {
     font-weight: bold;
     color: aliceblue;
-    font-size: 225.5%; /* Increased by 10% from 205% */
-    margin-left: 22px; /* Increased by 10% from 20px */
+    font-size: 225.5%; 
+    margin-left: 22px; 
 }
 
 nav ul li:hover {
@@ -55,29 +55,29 @@ nav ul {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    gap: 66px; /* Increased by 10% from 60px */
+    gap: 66px; 
     width: 100vw;
 }
 
 .imageDiv {
     position: relative;
-    top: 11px; /* Increased by 10% from 10px */
-    left: 715px; /* Increased by 10% from 650px */
+    top: 11px; 
+    left: 715px; 
 }
 
 .pic {
-    height: 572px; /* Increased by 10% from 520px */
+    height: 572px; 
     position: relative;
-    left: 93.5px; /* Increased by 10% from 85px */
-    top: 11px; /* Increased by 10% from 10px */
+    left: 107.5px;
+    top: 11px; 
     mix-blend-mode: lighten;
 }
 
 .aboutMe {
-    width: 55vw; /* Increased by 10% from 50vw */
+    width: 55vw; 
     position: relative;
-    top: -478.5px; /* Increased by 10% from -435px */
-    left: 60.5px; /* Increased by 10% from 55px */
+    top: -478.5px; 
+    left: 60.5px; 
 }
 
 .aboutMe h3 {
@@ -85,7 +85,7 @@ nav ul {
 }
 
 .intro {
-    font-size: 38.5px; /* Increased by 10% from 35px */
+    font-size: 38.5px;
     font-weight: 750;
 }
 
@@ -97,44 +97,44 @@ nav ul {
 
 .Name {
     text-align: justify;
-    line-height: 2.2; /* Increased by 10% from 2.0 */
-    margin-top: 22px; /* Increased by 10% from 20px */
-    font-size: 16.5px; /* Increased by 10% from 15px */
+    line-height: 2.2; 
+    margin-top: 22px; 
+    font-size: 16.5px;
 }
 
 .foot {
-    padding-left: 55px; /* Increased by 10% from 50px */
-    padding-right: 55px; /* Increased by 10% from 50px */
+    padding-left: 55px; 
+    padding-right: 55px;
     position: relative;
     top: 0px;
 }
 
 .footer-line {
-    border: 1.1px solid grey; /* Increased by 10% from 1px */
+    border: 1.1px solid grey; 
 }
 
 .footer-icon {
-    height: 165px; /* Increased by 10% from 150px */
+    height: 165px; 
     position: relative;
-    top: 55px; /* Increased by 10% from 50px */
+    top: 55px; 
 }
 
 .copyright {
     position: relative;
     color: gray;
-    top: 71.5px; /* Increased by 10% from 65px */
-    padding: 22px; /* Increased by 10% from 20px */
+    top: 71.5px; 
+    padding: 22px; 
 }
 
 .foot-nav {
     position: relative;
-    top: -187px; /* Increased by 10% from -170px */
-    left: 830.5px; /* Increased by 10% from 755px */
+    top: -187px; 
+    left: 830.5px;
 }
 
 .foot .foot-nav ul li {
     color: gray;
-    margin: 11px; /* Increased by 10% from 10px */
+    margin: 11px; 
 }
 
 .foot .foot-nav ul {
@@ -143,15 +143,15 @@ nav ul {
 
 .foot-follow {
     position: relative;
-    top: -352px; /* Increased by 10% from -320px */
-    left: 1287px; /* Increased by 10% from 1170px */
+    top: -352px; 
+    left: 1287px; 
 }
 
 .foot .foot-follow img {
-    height: 27.5px; /* Increased by 10% from 25px */
-    margin-right: 11px; /* Increased by 10% from 10px */
+    height: 27.5px; 
+    margin-right: 11px; 
 }
 
 footer {
-    height: 110px; /* Increased by 10% from 100px */
+    height: 110px; 
 }
