@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -8,165 +8,163 @@
 a, u {
     text-decoration: none;
     color: white;
-  }
+}
 
-a:hover{
+a:hover {
     background: linear-gradient(91deg, #244cfa, #8E52FB);
-    color:transparent;
+    color: transparent;
     background-clip: text;
 }
 
-body{
+body {
     background-color: black;
     background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
 
-.Nav-Container{
+.Nav-Container {
     display: flex;
-    /* background-color: rgb(10%, 10%, 10%); */
     background-color: transparent;
-    height: 65px;
+    height: 71.5px; 
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     background: linear-gradient(180deg, black, #000000, transparent);
-    height: 90px;
+    height: 99px; 
 }
 
-nav ul li{
+nav ul li {
     font-weight: bold;
 }
 
-.logo{
+.logo {
     font-weight: bold;
     color: aliceblue;
-    font-size: 205%;
-    margin-left: 20PX;
+    font-size: 225.5%; 
+    margin-left: 22px; 
 }
 
-nav ul li:hover{
+nav ul li:hover {
     color: rgb(160, 160, 222);
 }
 
-nav ul{
+nav ul {
     color: aliceblue;
     display: flex;
     list-style-type: none;
     justify-content: center;
-    gap: 60px;
+    gap: 66px; 
     width: 100vw;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 55px; 
 }
 
 .header h1 {
     background: linear-gradient(58deg, skyblue, magenta);
-    font-size: 48px;
+    font-size: 52.8px; 
     color: transparent;
     background-clip: text;
 }
 
-.stackList{
+.stackList {
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
     position: relative;
-    top: 20px;
-    left: 30px;
+    top: 22px; 
+    left: 33px;
 }
 
 .icon {
-    padding: 17px 115px;
-    margin: 20px;
-    border-radius: 10px;
+    padding: 18.7px 126.5px; 
+    margin: 22px;
+    border-radius: 11px; 
     background-color: rgb(10%, 10%, 10%);
     text-align: center;
-    font-size: 16px;
-    transition: background-size 0.75s ease-in-out; 
+    font-size: 17.6px; 
+    transition: background-size 0.75s ease-in-out;
     font-weight: bold;
-    background-image: linear-gradient(143deg,#06b7ff,magenta);
+    background-image: linear-gradient(143deg, #06b7ff, magenta);
     background-size: 0% 100%;
     background-repeat: no-repeat;
 }
 
 .icon:hover {
     background-size: 100% 100%;
-    color: white; 
+    color: white;
 }
 
-.iconPic{
-    margin-bottom: 10px;
-    height: 50px;
-    width: 50px;
+.iconPic {
+    margin-bottom: 11px;
+    height: 55px; 
+    width: 55px; 
     object-fit: contain;
 }
 
-
-
-.foot{
-    padding-left: 50px;
-    padding-right: 50px;
+.foot {
+    padding-left: 55px;
+    padding-right: 55px;
     position: relative;
-    top: 300px;
-}
-.footer-line{
-    border: 1px solid grey;
+    top: 330px; 
 }
 
-.footer-icon{
-    height: 150px;
+.footer-line {
+    border: 1.1px solid grey; 
+}
+
+.footer-icon {
+    height: 165px; 
     position: relative;
-    top: 50px;
+    top: 55px; 
 }
 
-.copyright{
+.copyright {
     position: relative;
     color: gray;
-    top: 65px;
-    padding: 20px;
+    top: 71.5px; 
+    padding: 22px; 
 }
 
-.foot-nav{
+.foot-nav {
     position: relative;
-    top: -170px;
-    left: 755px;
+    top: -187px; 
+    left: 830.5px;
 }
 
 .foot .foot-nav ul li {
     color: gray;
-    margin: 10px;
+    margin: 11px; 
 }
 
-.foot .foot-nav ul{
+.foot .foot-nav ul {
     list-style-type: none;
 }
 
-.foot-follow{
+.foot-follow {
     position: relative;
-    top: -320px;
-    left: 1170px;
+    top: -352px; 
+    left: 1287px; 
 }
 
 .foot .foot-follow img {
-    height: 25px; 
-    margin-right:10px;
+    height: 27.5px; 
+    margin-right: 11px; 
 }
 
-footer{
-    height: 100px;
+footer {
+    height: 110px; 
 }
 
-.projectText{
-    line-height: 1;
-    letter-spacing: 2px;
-  word-spacing: 2px;
-  text-wrap: balance;
-  color: black;
+.projectText {
+    line-height: 1.1; 
+    letter-spacing: 2.2px; 
+    word-spacing: 2.2px; 
+    text-wrap: balance;
+    color: black;
 }

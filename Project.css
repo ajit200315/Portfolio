@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -8,187 +8,183 @@
 a, u {
     text-decoration: none;
     color: white;
-  }
+}
 
-a:hover{
+a:hover {
     background: linear-gradient(91deg, #244cfa, #8E52FB);
-    color:transparent;
+    color: transparent;
     background-clip: text;
 }
 
-body{
+body {
     background-color: black;
     background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
 
-.Nav-Container{
+.Nav-Container {
     display: flex;
     /* background-color: rgb(10%, 10%, 10%); */
     background-color: transparent;
-    height: 65px;
+    height: 71.5px; /* Increased by 10% from 65px */
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     background: linear-gradient(180deg, black, #000000, transparent);
-    height: 90px;
+    height: 99px; /* Increased by 10% from 90px */
 }
 
-nav ul li{
+nav ul li {
     font-weight: bold;
 }
 
-.logo{
+.logo {
     font-weight: bold;
     color: aliceblue;
-    font-size: 205%;
-    margin-left: 20PX;
+    font-size: 225.5%; /* Increased by 10% from 205% */
+    margin-left: 22px; /* Increased by 10% from 20px */
 }
 
-nav ul li:hover{
+nav ul li:hover {
     color: rgb(160, 160, 222);
 }
 
-nav ul{
+nav ul {
     color: aliceblue;
     display: flex;
     list-style-type: none;
     justify-content: center;
-    gap: 60px;
+    gap: 66px; /* Increased by 10% from 60px */
     width: 100vw;
 }
 
-.FirstLine{
+.FirstLine {
     color: gray;
     position: relative;
-    top: -15px;
-    left: 80px;
+    top: -16.5px; /* Increased by 10% from -15px */
+    left: 88px; /* Increased by 10% from 80px */
 }
 
-.headerText{
+.headerText {
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 70px;
+    top: 77px; /* Increased by 10% from 70px */
 }
 
-.headProject{
+.headProject {
     position: relative;
-    top: 35px;
-    left: -89px;
-    font-size: 65px;
-    background: linear-gradient(90deg , skyblue, magenta);
-    color:transparent;
+    top: 38.5px; /* Increased by 10% from 35px */
+    left: -97.9px; /* Increased by 10% from -89px */
+    font-size: 71.5px; /* Increased by 10% from 65px */
+    background: linear-gradient(90deg, skyblue, magenta);
+    color: transparent;
     background-clip: text;
 }
 
-.project1{
-    height: 565px;
-    width: 500px;
+.project1 {
+    height: 621.5px; /* Increased by 10% from 565px */
+    width: 550px; /* Increased by 10% from 500px */
     position: relative;
-    top: 150px;
-    left: 125px;
-    border: 2px solid transparent;
-    background: linear-gradient(#151515,#151515) padding-box, linear-gradient(to top,blue , purple) border-box;
-    border-radius: 20px;
-    padding: 10px;
+    top: 165px; /* Increased by 10% from 150px */
+    left: 137.5px; /* Increased by 10% from 125px */
+    border: 2.2px solid transparent; /* Increased by 10% from 2px */
+    background: linear-gradient(#151515, #151515) padding-box, linear-gradient(to top, blue, purple) border-box;
+    border-radius: 22px; /* Increased by 10% from 20px */
+    padding: 11px; /* Increased by 10% from 10px */
 }
 
-.projecttPhoto{
-    height:230px;
-    border-radius: 10px;
+.projecttPhoto {
+    height: 253px; /* Increased by 10% from 230px */
+    border-radius: 11px; /* Increased by 10% from 10px */
 }
 
-
-.projectName{
-    font-size: 30px;
-    font-size: 30px;
+.projectName {
+    font-size: 33px; /* Increased by 10% from 30px */
     position: relative;
-    top: 10px;
+    top: 11px; /* Increased by 10% from 10px */
 }
 
-.projectText{
+.projectText {
     color: #aaa6a6;
     position: relative;
-    top: 20px;
-    font-size: 21px;
+    top: 22px; /* Increased by 10% from 20px */
+    font-size: 23.1px; /* Increased by 10% from 21px */
 }
 
-.ProjectGit{
+.ProjectGit {
     position: relative;
-    height: 60px;
-    top: 40px;
-    left: 430px;
+    height: 66px; /* Increased by 10% from 60px */
+    top: 44px; /* Increased by 10% from 40px */
+    left: 473px; /* Increased by 10% from 430px */
 }
 
-.project2{
-    height: 565px;
-    width: 500px;
+.project2 {
+    height: 621.5px; /* Increased by 10% from 565px */
+    width: 550px; /* Increased by 10% from 500px */
     position: relative;
-    top: -440px;
-    left: 690px;
-    border: 2px solid transparent;
-    background: linear-gradient(#151515,#151515) padding-box, linear-gradient(to top,blue , purple) border-box;
-    border-radius: 20px;
-    padding: 10px;
+    top: -484px; /* Increased by 10% from -440px */
+    left: 759px; /* Increased by 10% from 690px */
+    border: 2.2px solid transparent; /* Increased by 10% from 2px */
+    background: linear-gradient(#151515, #151515) padding-box, linear-gradient(to top, blue, purple) border-box;
+    border-radius: 22px; /* Increased by 10% from 20px */
+    padding: 11px; /* Increased by 10% from 10px */
 }
 
-
-
-
-.foot{
-    padding-left: 50px;
-    padding-right: 50px;
+.foot {
+    padding-left: 55px; /* Increased by 10% from 50px */
+    padding-right: 55px; /* Increased by 10% from 50px */
     position: relative;
-    top: -30px;
-}
-.footer-line{
-    border: 1px solid grey;
+    top: -33px; /* Increased by 10% from -30px */
 }
 
-.footer-icon{
-    height: 150px;
+.footer-line {
+    border: 1.1px solid grey; /* Increased by 10% from 1px */
+}
+
+.footer-icon {
+    height: 165px; /* Increased by 10% from 150px */
     position: relative;
-    top: 50px;
+    top: 55px; /* Increased by 10% from 50px */
 }
 
-.copyright{
+.copyright {
     position: relative;
     color: gray;
-    top: 65px;
-    padding: 20px;
+    top: 71.5px; /* Increased by 10% from 65px */
+    padding: 22px; /* Increased by 10% from 20px */
 }
 
-.foot-nav{
+.foot-nav {
     position: relative;
-    top: -170px;
-    left: 755px;
+    top: -187px; /* Increased by 10% from -170px */
+    left: 830.5px; /* Increased by 10% from 755px */
 }
 
 .foot .foot-nav ul li {
     color: gray;
-    margin: 10px;
+    margin: 11px; /* Increased by 10% from 10px */
 }
 
-.foot .foot-nav ul{
+.foot .foot-nav ul {
     list-style-type: none;
 }
 
-.foot-follow{
+.foot-follow {
     position: relative;
-    top: -320px;
-    left: 1170px;
+    top: -352px; /* Increased by 10% from -320px */
+    left: 1287px; /* Increased by 10% from 1170px */
 }
 
 .foot .foot-follow img {
-    height: 25px; 
-    margin-right:10px;
+    height: 27.5px; /* Increased by 10% from 25px */
+    margin-right: 11px; /* Increased by 10% from 10px */
 }
 
-footer{
-    height: 100px;
+footer {
+    height: 110px; /* Increased by 10% from 100px */
 }

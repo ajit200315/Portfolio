@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -7,161 +7,161 @@
 a, u {
     text-decoration: none;
     color: white;
-  }
+}
 
-a:hover{
+a:hover {
     background: linear-gradient(91deg, #244cfa, #8E52FB);
-    color:transparent;
+    color: transparent;
     background-clip: text;
 }
 
-body{
+body {
     background-color: black;
     background-image: url('photos\\background.jpg');
     overflow-x: hidden;
+    font-size: 110%; /* Scales inherited and percentage-based font sizes by 10% */
 }
 
-.Nav-Container{
+.Nav-Container {
     display: flex;
-    /* background-color: rgb(10%, 10%, 10%); */
     background-color: transparent;
-    height: 65px;
+    height: 71.5px; /* 65px * 1.1 */
 }
 
-nav{
+nav {
     display: flex;
     background: linear-gradient(180deg, black, #000000, transparent);
     align-items: center;
-    height: 90px;
+    height: 99px; /* 90px * 1.1 */
 }
 
-nav ul li{
+nav ul li {
     font-weight: bold;
 }
 
-.logo{
+.logo {
     font-weight: bold;
     color: aliceblue;
-    font-size: 205%;
-    margin-left: 20PX;
+    font-size: 205%; /* With body at 110%, this becomes 225.5% of default */
+    margin-left: 22px; /* 20px * 1.1 */
 }
 
-nav ul li:hover{
+nav ul li:hover {
     color: rgb(160, 160, 222);
 }
 
-nav ul{
+nav ul {
     color: aliceblue;
     display: flex;
     list-style-type: none;
     justify-content: center;
-    gap: 60px;
+    gap: 66px; /* 60px * 1.1 */
     width: 100vw;
 }
 
-.About-me{
+.About-me {
     display: flex;
 }
 
-.info{
+.info {
     position: relative;
-    top: 100px;
-    left: 180px;
+    top: 110px; /* 100px * 1.1 */
+    left: 198px; /* 180px * 1.1 */
     width: 40vw;
 }
 
-.hi{
+.hi {
     background: linear-gradient(150deg, #e630ff, #ff7300);
     color: transparent;
     background-clip: text;
-    font-size: 25px;
+    font-size: 27.5px; /* 25px * 1.1 */
 }
 
-.pic{
-    height: 520px;
+.pic {
+    height: 572px; /* 520px * 1.1 */
     position: relative;
-    left: 40px;
-    top: 10px;
+    left: 44px; /* 40px * 1.1 */
+    top: 11px; /* 10px * 1.1 */
     mix-blend-mode: lighten;
 }
 
-.Name{
+.Name {
+    color: lightgrey;
+    text-align: justify;
+    line-height: 2.0; /* Scales with font size, no change needed */
+}
+
+.Name-bigger {
     color: lightgrey;
     text-align: justify;
     line-height: 2.0;
+    font-size: 55px; /* 50px * 1.1 */
 }
 
-.Name-bigger{
-    color: lightgrey;
-    text-align: justify;
-    line-height: 2.0;
-    font-size: 50px;
-}
-
-.Name-colorGradient{
+.Name-colorGradient {
     background: linear-gradient(91deg, #FD5659, #8E52FB);
-    color:transparent;
+    color: transparent;
     background-clip: text;
 }
 
-.EmailSize{
-    height: 25px;
+.EmailSize {
+    height: 27.5px; /* 25px * 1.1 */
     position: relative;
-    top: 5px;
-    margin-right: 5px;
+    top: 5.5px; /* 5px * 1.1 */
+    margin-right: 5.5px; /* 5px * 1.1 */
     color: #8E52FB;
 }
 
-
-.foot{
-    padding-left: 50px;
-    padding-right: 50px;
+.foot {
+    padding-left: 55px; /* 50px * 1.1 */
+    padding-right: 55px; /* 50px * 1.1 */
     position: relative;
-    top: 300px;
-}
-.footer-line{
-    border: 1px solid grey;
+    top: 330px; /* 300px * 1.1 */
 }
 
-.footer-icon{
-    height: 150px;
+.footer-line {
+    border: 1px solid grey; /* Border thickness unchanged for sharpness */
+}
+
+.footer-icon {
+    height: 165px; /* 150px * 1.1 */
     position: relative;
-    top: 50px;
+    top: 55px; /* 50px * 1.1 */
 }
 
-.copyright{
+.copyright {
     position: relative;
     color: gray;
-    top: 65px;
-    padding: 20px;
+    top: 71.5px; /* 65px * 1.1 */
+    padding: 22px; /* 20px * 1.1 */
 }
 
-.foot-nav{
+.foot-nav {
     position: relative;
-    top: -170px;
-    left: 755px;
+    top: -187px; /* -170px * 1.1 */
+    left: 830.5px; /* 755px * 1.1 */
 }
 
 .foot .foot-nav ul li {
     color: gray;
-    margin: 10px;
+    margin: 11px; /* 10px * 1.1 */
 }
 
-.foot .foot-nav ul{
+.foot .foot-nav ul {
     list-style-type: none;
 }
 
-.foot-follow{
+.foot-follow {
     position: relative;
-    top: -320px;
-    left: 1170px;
+    top: -352px; /* -320px * 1.1 */
+    left: 1287px; /* 1170px * 1.1 */
 }
 
 .foot .foot-follow img {
-    height: 25px; 
-    margin-right:10px;
+    height: 27.5px; /* 25px * 1.1 */
+    margin-right: 11px; /* 10px * 1.1 */
 }
 
-footer{
-    height: 100px;
+footer {
+    height: 110px; /* 100px * 1.1 */
 }

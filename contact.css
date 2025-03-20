@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -8,151 +8,150 @@
 a, u {
     text-decoration: none;
     color: white;
-  }
+}
 
-a:hover{
+a:hover {
     background: linear-gradient(91deg, #244cfa, #8E52FB);
-    color:transparent;
+    color: transparent;
     background-clip: text;
 }
 
-body{
+body {
     background-color: black;
     background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
 
-.Nav-Container{
+.Nav-Container {
     display: flex;
     /* background-color: rgb(10%, 10%, 10%); */
     background-color: transparent;
-    height: 65px;
+    height: 71.5px; 
 }
 
-nav{
+nav {
     display: flex;
     background: linear-gradient(180deg, black, #000000, transparent);
     align-items: center;
-    height: 90px;
+    height: 99px; 
 }
 
-nav ul li{
+nav ul li {
     font-weight: bold;
 }
 
-.logo{
+.logo {
     font-weight: bold;
     color: aliceblue;
-    font-size: 205%;
-    margin-left: 20PX;
+    font-size: 225.5%;
+    margin-left: 22px; 
 }
 
-nav ul li:hover{
+nav ul li:hover {
     color: rgb(160, 160, 222);
 }
 
-nav ul{
+nav ul {
     color: aliceblue;
     display: flex;
     list-style-type: none;
     justify-content: center;
-    gap: 60px;
+    gap: 66px; 
     width: 100vw;
 }
 
 /* ///// */
-.firstline{
-    font-size: 25px;
+.firstline {
+    font-size: 27.5px; 
     position: relative;
-    top: 120px;
-    left: 157px;
+    top: 132px; 
+    left: 172.7px; 
 }
 
-.Hello{
-    background: linear-gradient(270deg , skyblue,magenta);
+.Hello {
+    background: linear-gradient(270deg, skyblue, magenta);
     color: transparent;
     background-clip: text;
-    font-size: 50px;
+    font-size: 55px; 
 }
-
 
 .contact-container {
     position: relative;
-    top: 110px;
-    left: 120px;
+    top: 121px; 
+    left: 132px;
     background: transparent;
-    padding: 20px;
-    border-radius: 8px;
-    width: 300px;
+    padding: 22px; 
+    border-radius: 8.8px; 
+    width: 330px; 
     text-align: center;
 }
 
 h2 {
-    margin-bottom: 15px;
+    margin-bottom: 16.5px; 
     position: relative;
-    left: -53px;
+    left: -58.3px; 
 }
 
-.FirstName{
+.FirstName {
     width: 80%;
-    padding: 12px;
-    border-radius: 7px;
+    padding: 13.2px; 
+    border-radius: 7.7px; 
     border: none;
     background-color: rgb(10%, 10%, 10%);
 }
 
-.LastName{
+.LastName {
     width: 80%;
-    padding: 12px;
-    border-radius: 7px;
+    padding: 13.2px; 
+    border-radius: 7.7px; 
     position: relative;
-    top: -41px;
-    left: 280px;
+    top: -45.1px; 
+    left: 308px;
     border: none;
     background-color: rgb(10%, 10%, 10%);
 }
 
-.email{
+.email {
     width: 80%;
-    padding: 12px;
-    border-radius: 7px;
+    padding: 13.2px; 
+    border-radius: 7.7px; 
     position: relative;
-    top: -30px;
+    top: -33px; 
     left: 0px;
     border: none;
     background-color: rgb(10%, 10%, 10%);
 }
 
-.Phone{
+.Phone {
     width: 80%;
-    padding: 12px;
-    border-radius: 7px;
+    padding: 13.2px;
+    border-radius: 7.7px; 
     position: relative;
-    top: -71px;
-    left: 280px;
+    top: -78.1px; 
+    left: 308px; 
     border: none;
     background-color: rgb(10%, 10%, 10%);
 }
 
-.message{
+.message {
     width: 175%;
-    height: 65px;
-    padding: 12px;
-    border-radius: 7px;
+    height: 71.5px;
+    padding: 13.2px; 
+    border-radius: 7.7px; 
     position: relative;
-    top: -60px;
-    left: 15px;
+    top: -66px; 
+    left: 16.5px;
     border: none;
     background-color: rgb(10%, 10%, 10%);
 }
 
 .button {
     width: 45%;
-    padding: 15px;
-    border-radius: 7px;
+    padding: 16.5px; 
+    border-radius: 7.7px; 
     position: relative;
-    top: -53px;
-    left: -68px;
+    top: -58.3px; 
+    left: -74.8px;
     border: none;
     position: relative;
     overflow: hidden;
@@ -173,7 +172,7 @@ h2 {
 }
 
 .button p {
-    font-size: 14px;
+    font-size: 15.4px; 
     color: #6f6f6f;
     transition: color 0.5s;
     position: relative;
@@ -188,89 +187,88 @@ h2 {
     color: black;
 }
 
-
-.writtenContact{
+.writtenContact {
     position: relative;
-    top: -300px;
-    left: 1069px;
+    top: -330px; 
+    left: 1175.9px; 
 }
 
-.writtenContact h2{
+.writtenContact h2 {
     color: gray;
 }
 
-.con-info{
-    position:relative;
-    left: -55px;
+.con-info {
+    position: relative;
+    left: -60.5px;
     top: 0px;
-    margin-top: 20px;
+    margin-top: 22px; 
     color: gray;
 }
 
-
-.foot{
-    padding-left: 50px;
-    padding-right: 50px;
+.foot {
+    padding-left: 55px;
+    padding-right: 55px; 
     position: relative;
-    top: 300px;
-}
-.footer-line{
-    border: 1px solid grey;
+    top: 330px; 
 }
 
-.footer-icon{
-    height: 150px;
+.footer-line {
+    border: 1.1px solid grey; 
+}
+
+.footer-icon {
+    height: 165px; 
     position: relative;
-    top: 50px;
+    top: 55px;
 }
 
-.copyright{
+.copyright {
     position: relative;
     color: gray;
-    top: 65px;
-    padding: 20px;
+    top: 71.5px; 
+    padding: 22px; 
 }
 
-.foot-nav{
+.foot-nav {
     position: relative;
-    top: -170px;
-    left: 755px;
+    top: -187px; 
+    left: 830.5px; 
 }
 
 .foot .foot-nav ul li {
     color: gray;
-    margin: 10px;
+    margin: 11px; 
 }
 
-.foot .foot-nav ul{
+.foot .foot-nav ul {
     list-style-type: none;
 }
 
-.foot-follow{
+.foot-follow {
     position: relative;
-    top: -320px;
-    left: 1170px;
+    top: -352px; 
+    left: 1287px; 
 }
 
 .foot .foot-follow img {
-    height: 25px; 
-    margin-right:10px;
+    height: 27.5px; 
+    margin-right: 11px; 
 }
 
-footer{
-    height: 100px;
+footer {
+    height: 110px; 
 }
 
-.writtenContact img{
-    height: 30px;
+.writtenContact img {
+    height: 33px;
 }
 
-.fm{
+.fm {
     position: relative;
-    top: 33px;
-    left: -54px;
+    top: 36.3px; 
+    left: -55px;
 }
 
-.fm strong{
-    color:gray;
+.fm strong {
+    color: gray;
 }

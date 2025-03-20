@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     color: beige;
@@ -8,155 +8,150 @@
 a, u {
     text-decoration: none;
     color: white;
-  }
+}
 
-a:hover{
+a:hover {
     background: linear-gradient(91deg, #244cfa, #8E52FB);
-    color:transparent;
+    color: transparent;
     background-clip: text;
 }
 
-body{
+body {
     background-color: black;
     background-image: url('photos\\background.jpg');
     overflow-x: hidden;
 }
 
-.Nav-Container{
+.Nav-Container {
     display: flex;
-    /* background-color: rgb(10%, 10%, 10%); */
     background-color: transparent;
-    height: 65px;
+    height: 71.5px; /* Increased by 10% from 65px */
 }
 
-nav{
+nav {
     display: flex;
     background: linear-gradient(180deg, black, #000000, transparent);
     align-items: center;
-    height: 90px;
+    height: 99px; /* Increased by 10% from 90px */
 }
 
-nav ul li{
+nav ul li {
     font-weight: bold;
 }
 
-.logo{
+.logo {
     font-weight: bold;
     color: aliceblue;
-    font-size: 205%;
-    margin-left: 20PX;
+    font-size: 225.5%; /* Increased by 10% from 205% */
+    margin-left: 22px; /* Increased by 10% from 20px */
 }
 
-nav ul li:hover{
+nav ul li:hover {
     color: rgb(160, 160, 222);
 }
 
-nav ul{
+nav ul {
     color: aliceblue;
     display: flex;
     list-style-type: none;
     justify-content: center;
-    gap: 60px;
+    gap: 66px; /* Increased by 10% from 60px */
     width: 100vw;
 }
 
-
-.imageDiv{
+.imageDiv {
     position: relative;
-    top: 10px;
-    left: 650px;
+    top: 11px; /* Increased by 10% from 10px */
+    left: 715px; /* Increased by 10% from 650px */
 }
 
-
-.pic{
-    height: 520px;
+.pic {
+    height: 572px; /* Increased by 10% from 520px */
     position: relative;
-    left: 85px;
-    top: 10px;
+    left: 93.5px; /* Increased by 10% from 85px */
+    top: 11px; /* Increased by 10% from 10px */
     mix-blend-mode: lighten;
 }
 
-.aboutMe{
-    width: 50vw;
+.aboutMe {
+    width: 55vw; /* Increased by 10% from 50vw */
     position: relative;
-    top: -435px;
-    left: 55px;
+    top: -478.5px; /* Increased by 10% from -435px */
+    left: 60.5px; /* Increased by 10% from 55px */
 }
 
-.aboutMe h3{
-    color:#c364f3;
+.aboutMe h3 {
+    color: #c364f3;
 }
 
-.intro{
-    font-size: 35px;
+.intro {
+    font-size: 38.5px; /* Increased by 10% from 35px */
     font-weight: 750;
 }
 
-.Name-colorGradient{
-    background: linear-gradient(180deg , skyblue , magenta);
-    color:transparent;
+.Name-colorGradient {
+    background: linear-gradient(180deg, skyblue, magenta);
+    color: transparent;
     background-clip: text;
 }
 
-.Name{
+.Name {
     text-align: justify;
-    line-height: 2.0;
-    margin-top: 20px;
-    font-size: 15px;
+    line-height: 2.2; /* Increased by 10% from 2.0 */
+    margin-top: 22px; /* Increased by 10% from 20px */
+    font-size: 16.5px; /* Increased by 10% from 15px */
 }
 
-
-
-.foot{
-    padding-left: 50px;
-    padding-right: 50px;
+.foot {
+    padding-left: 55px; /* Increased by 10% from 50px */
+    padding-right: 55px; /* Increased by 10% from 50px */
     position: relative;
     top: 0px;
 }
-.footer-line{
-    border: 1px solid grey;
+
+.footer-line {
+    border: 1.1px solid grey; /* Increased by 10% from 1px */
 }
 
-.footer-icon{
-    height: 150px;
+.footer-icon {
+    height: 165px; /* Increased by 10% from 150px */
     position: relative;
-    top: 50px;
+    top: 55px; /* Increased by 10% from 50px */
 }
 
-.copyright{
+.copyright {
     position: relative;
     color: gray;
-    top: 65px;
-    padding: 20px;
+    top: 71.5px; /* Increased by 10% from 65px */
+    padding: 22px; /* Increased by 10% from 20px */
 }
 
-.foot-nav{
+.foot-nav {
     position: relative;
-    top: -170px;
-    left: 755px;
+    top: -187px; /* Increased by 10% from -170px */
+    left: 830.5px; /* Increased by 10% from 755px */
 }
 
 .foot .foot-nav ul li {
     color: gray;
-    margin: 10px;
+    margin: 11px; /* Increased by 10% from 10px */
 }
 
-.foot .foot-nav ul{
+.foot .foot-nav ul {
     list-style-type: none;
 }
 
-.foot-follow{
+.foot-follow {
     position: relative;
-    top: -320px;
-    left: 1170px;
+    top: -352px; /* Increased by 10% from -320px */
+    left: 1287px; /* Increased by 10% from 1170px */
 }
 
 .foot .foot-follow img {
-    height: 25px; 
-    margin-right:10px;
+    height: 27.5px; /* Increased by 10% from 25px */
+    margin-right: 11px; /* Increased by 10% from 10px */
 }
 
-footer{
-    height: 100px;
+footer {
+    height: 110px; /* Increased by 10% from 100px */
 }
-
