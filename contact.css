@@ -173,7 +173,7 @@ h2 {
 
 .button p {
     font-size: 15.4px; 
-    color: #6f6f6f;
+    color:#e2dcdc
     transition: color 0.5s;
     position: relative;
     z-index: 1;

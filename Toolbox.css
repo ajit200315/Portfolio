@@ -88,7 +88,7 @@ nav ul {
     background-color: rgb(10%, 10%, 10%);
     text-align: center;
     font-size: 17.6px; 
-    transition: background-size 0.75s ease-in-out;
+    transition:  0.5s ease-in-out;
     font-weight: bold;
     background-image: linear-gradient(143deg, #06b7ff, magenta);
     background-size: 0% 100%;
@@ -98,6 +98,7 @@ nav ul {
 .icon:hover {
     background-size: 100% 100%;
     color: white;
+    transform: scale(1.1);
 }
 
 .iconPic {
