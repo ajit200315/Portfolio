@@ -120,6 +120,7 @@ nav ul {
 
 .projectText {
     color: #aaa6a6;
+    text-align: justify;
     position: relative;
     top: 22px; 
     font-size: 23.1px; 
